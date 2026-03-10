@@ -87,6 +87,8 @@ For more information, see [Use the Secret Store extension to fetch secrets for o
 ## Microsoft Defender for Containers
 
 - **Supported distributions**: AKS enabled by Azure Arc, Cluster API Azure, Azure Red Hat OpenShift, Red Hat OpenShift (version 4.6 or later), Google Kubernetes Engine Standard, Amazon Elastic Kubernetes Service, VMware Tanzu Kubernetes Grid, Rancher Kubernetes Engine, and Canonical Kubernetes Distribution.
+- > [!IMPORTANT]
+> Support for self-managed Red Hat OpenShift 4.x clusters running on-premises (Arc-enabled Kubernetes) isn't currently available for Microsoft Defender for Containers, including DaemonSet-based deployment scenarios.
 
 Microsoft Defender for Containers is the cloud-native solution that is used to secure your containers so you can improve, monitor, and maintain the security of your clusters, containers, and their applications. Microsoft Defender for Containers gathers information related to security, such as audit log data, from the Kubernetes cluster. Then, it provides recommendations and threat alerts based on the gathered data.
 
